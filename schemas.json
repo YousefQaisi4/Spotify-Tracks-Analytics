@@ -1,0 +1,31 @@
+{
+    "file": "artists.csv",
+    "columns": [
+        {
+            "name": "id",
+            "type": "string",
+            "description": "Unique identifier for the artist"
+        },
+        {
+            "name": "followers",
+            "type": "float",
+            "description": "Number of followers"
+        },
+        {
+            "name": "genres",
+            "type": "list of strings",
+            "description": "Genres associated with the artist"
+        },
+        {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the artist"
+        },
+        {
+            "name": "popularity",
+            "type": "integer",
+            "description": "Popularity score of the artist"
+        }
+    ],
+    "row_count": 1162095
+}
